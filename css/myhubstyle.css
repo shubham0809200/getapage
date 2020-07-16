@@ -1,3 +1,14 @@
+
+
+body{
+	margin:0;
+	padding:0;
+	
+}
+
+
+
+
 .contain{
 	align:center;
 }
@@ -24,7 +35,7 @@
 
 .main-head{
 	float:right;
-	width:99%;
+	width:100%;
 	position:fixed;
 	background-color:white;
 	box-shadow: 5px 10px 10px #EBEDEF ;
@@ -120,8 +131,8 @@ a:active, a:hover{
 }
 
 .second-page{
-	margin-top:-18px;
-	height:1000px;
+	
+	height:900px;
 	background-color:#EAEDED;
 	background-size:110% 110%;
 	background-position: center center;
@@ -137,6 +148,7 @@ a:active, a:hover{
 }
 
 .button4 {
+	display:flex;
 	background-color: #FDFEFE;
 	border: none;
 	color: black;
@@ -145,11 +157,15 @@ a:active, a:hover{
 	text-decoration: none;
 	display: inline-block;
 	font-size: 1px;
-	margin: 30px 460px;
+	margin-left:35%;
+	margin-top:25px;
 	cursor: pointer;
+	
 }
 		
 .tabs{
+	
+	display:flex;
 	border-radius:25px;
 	box-shadow: 5px 10px 18px #FDFEFE;
 	transition-duration: 0.5s;
@@ -198,5 +214,7 @@ a:active, a:hover{
 .text{
 	color:black;
 	background-color:#FADBD8;
-		  box-shadow: 10px 10px 70px white;
+	box-shadow: 10px 10px 70px white;
+	width:100%;	
+		
 }
