@@ -218,3 +218,23 @@ a:active, a:hover{
 	width:100%;	
 		
 }
+
+.third-page{
+height: 700px;
+align:center;
+
+}
+
+#third-table{
+	width:45%;
+	margin-top: 60;
+	padding-top:30px;
+	padding-bottom: 30px;
+	font-family:Courier;
+	font-size:25px;
+	list-style-type: none;
+	display: inline-flex;
+	background-color: #AED6F1;
+	margin-left: 25%;
+
+}
