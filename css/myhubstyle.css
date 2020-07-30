@@ -65,7 +65,7 @@ body{
 	font-family:"Helvetica",Arial,sans-serif;
 	background-color:rgba(235,237,239,0.5);
 	border-radius:12px;
-	height:50px;
+	height:80px;
 	font-size:30px;
 	box-shadow: 5px 1px 50px #CB4335;
 	padding-top:25px;
@@ -228,13 +228,19 @@ align:center;
 #third-table{
 	width:45%;
 	margin-top: 60;
-	padding-top:30px;
-	padding-bottom: 30px;
+	padding-top:10px;
+	padding-bottom: 10px;
 	font-family:Courier;
 	font-size:25px;
 	list-style-type: none;
 	display: inline-flex;
-	background-color: #AED6F1;
+	background-color: #E5E8E8;
 	margin-left: 25%;
+	padding-left: 30px;
+	
+}
 
+#firstSheet{
+
+	font-size: 50;
 }
