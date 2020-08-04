@@ -50,7 +50,7 @@ function hotel(){
                 document.getElementById('shopp').style.display='none';
                 document.getElementById('officee').style.display='none';
                 document.getElementById('otherr').style.display='none';
-                c=0;
+                c=0;s=0;o=0;ot=0;
             }
             else
             {
@@ -58,7 +58,7 @@ function hotel(){
                 document.getElementById('shopp').style.display='none';
                 document.getElementById('officee').style.display='none';
                 document.getElementById('otherr').style.display='none';
-                c=1;
+                c=1;s=0;o=0;ot=0;
             }
 
 
@@ -74,7 +74,7 @@ function shops(){
         document.getElementById('hotell').style.display='none';
         document.getElementById('officee').style.display='none';
         document.getElementById('otherr').style.display='none';
-        s=0;
+        s=0;c=0;o=0;ot=0;
     }
     else
     {
@@ -82,7 +82,7 @@ function shops(){
         document.getElementById('hotell').style.display='none';
         document.getElementById('officee').style.display='none';
         document.getElementById('otherr').style.display='none';
-        s=1;
+        s=1;c=0;o=0;ot=0;
     }
 
 
@@ -98,7 +98,7 @@ function office(){
         document.getElementById('shopp').style.display='none';
         document.getElementById('hotell').style.display='none';
         document.getElementById('otherr').style.display='none';
-        o=0;
+        o=0;c=0;s=0;ot=0;
     }
     else
     {
@@ -106,7 +106,7 @@ function office(){
         document.getElementById('shopp').style.display='none';
         document.getElementById('hotell').style.display='none';
         document.getElementById('otherr').style.display='none';
-        o=1;
+        o=1;c=0;s=0;ot=0;
     }
 
 
@@ -122,7 +122,7 @@ function other(){
         document.getElementById('shopp').style.display='none';
         document.getElementById('hotell').style.display='none';
         document.getElementById('officee').style.display='none';
-        ot=0;
+        ot=0;c=0;s=0;o=0;
     }
     else
     {
@@ -130,7 +130,7 @@ function other(){
         document.getElementById('shopp').style.display='none';
         document.getElementById('hotell').style.display='none';
         document.getElementById('officee').style.display='none';
-        ot=1;
+        ot=1;c=0;s=0;o=0;
     }
 
 
