@@ -245,3 +245,20 @@ align:center;
 
 	font-size: 50;
 }
+
+
+
+.button{
+
+	border-radius: 20px;
+	font-size: 25px;
+	border-width: thick;
+	width:70%
+
+}
+.button:hover{
+
+	font-size: 200%;
+	
+}
+
