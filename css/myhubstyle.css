@@ -279,7 +279,25 @@ align:center;
 	
 }
 
+.centerr{
+	
+	position: absolute;
+	top:35%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	
+}
 
+div .centerr{
+    width: 500px;
+    height: 250px;
+    
+    transition: width 3s;
+    -webkit-transition: width 3s;
+}
+div .centerr:hover {
+    width: 100%;
+}
 
 div .center{
     width: 500px;
@@ -294,6 +312,7 @@ div .center:hover {
 
 
 div #back-color{
+
     width: 500px;
     height: 250px;
     
