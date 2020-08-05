@@ -61,7 +61,7 @@ body{
 }
 
 #set{
-	text-shadow: 3px 6px 5px rgb(90, 86, 86);
+	text-shadow: 3px 6px 5px rgb(141, 134, 134);
 	font-family:"Helvetica",Arial,sans-serif;
 	background-color:rgba(235,237,239,0.5);
 	border-radius:12px;
@@ -74,7 +74,7 @@ body{
 }
 
 #aa{
-	text-shadow: 3px 6px 5px rgb(190, 111, 111);
+	text-shadow: 3px 6px 5px rgb(155, 141, 141);
 }
 
 
