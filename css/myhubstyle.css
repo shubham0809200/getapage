@@ -279,3 +279,31 @@ align:center;
 	
 }
 
+
+
+div .center{
+    width: 500px;
+    height: 250px;
+    
+    transition: width 3s;
+    -webkit-transition: width 3s;
+}
+div .center:hover {
+    width: 100%;
+}
+
+
+div #back-color{
+    width: 500px;
+    height: 250px;
+    
+    transition: width 3s;
+    -webkit-transition: width 3s;
+}
+div #back-color:hover {
+    width: 100%;
+}
+
+
+
+
