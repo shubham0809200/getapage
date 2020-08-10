@@ -280,17 +280,18 @@ align:center;
 }
 
 .centerr{
-	
+	overflow: auto;
 	position: absolute;
-	top:35%;
+	top:40%;
 	left:50%;
+	height: 500px;
 	transform:translate(-50%, -50%);
 	
 }
 
 div .centerr{
     width: 500px;
-    height: 250px;
+    height: 450px;
     
     transition: width 3s;
     -webkit-transition: width 3s;
